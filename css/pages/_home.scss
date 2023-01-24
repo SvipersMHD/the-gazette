@@ -2,14 +2,16 @@
 .slide {
     display: flex;
 
-    img {
-        height: 100%;
-        width: 100%;
-    }
+
 }
 .slide__wrapper {
     position: relative;
-    height: 500px;
+
+    img {
+        height: 50vh;
+        width: auto;
+        display: block;
+    }
 
     &::after {
         content: "";

@@ -6,11 +6,11 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <script src="https://kit.fontawesome.com/6dee88a29d.js" crossorigin="anonymous"></script>
    <title>Exercice The Gazette</title>
-   <link
-   rel="stylesheet"
-   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-   />
    <link rel="stylesheet" href="css/styles.min.css">
+   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 </head>
 <body>
    <header>
@@ -31,38 +31,41 @@
          </a>
       </nav>
    </header>
+<!-- Slider main container -->
    <main>
-      <section class="slide">
-         <div class="slide__wrapper swiper-slide">
-            <img src="img/bg-img/1.jpg" alt="manif">
-            <div class="slide__content">
-               <div class="categorie">
-                  <a href="">Crypro</a> 
+      <div class="swiper">
+         <section class="slide swiper-wrapper">
+            <div class="slide__wrapper swiper-slide">
+               <img src="img/bg-img/1.jpg" alt="manif">
+               <div class="slide__content">
+                  <div class="categorie">
+                     <a href="">Crypro</a>
+                  </div>
+                  <h3>Crypto world goes mad</h3>
+                  <div class="date">March 29, 2018</div>
                </div>
-               <h3>Crypto world goes mad</h3>
-               <div class="date">March 29, 2018</div>
             </div>
-         </div>
-         <div class="slide__wrapper swiper-slide">
-            <img src="img/bg-img/2.jpg" alt="capitol">
-            <div class="slide__content">
-               <div class="categorie">
-                  <a href="">Live</a>
+            <div class="slide__wrapper swiper-slide">
+               <img src="img/bg-img/2.jpg" alt="capitol">
+               <div class="slide__content">
+                  <div class="categorie">
+                     <a href="">Live</a>
+                  </div>
+                  <h3>The latest news</h3>
+                  <div class="date">March 29, 2018</div>
                </div>
-               <h3>The latest news</h3>
-               <div class="date">March 29, 2018</div>
             </div>
-         </div>
-         <div class="slide__wrapper swiper-slide">
-            <img src="img/bg-img/3.jpg" alt="good news">
-            <div class="slide__content">
-               <div class="categorie">
-                  <a href="">politics</a>
+            <div class="slide__wrapper swiper-slide">
+               <img src="img/bg-img/3.jpg" alt="good news">
+               <div class="slide__content">
+                  <div class="categorie">
+                     <a href="">politics</a>
+                  </div>
+                  <h3>Financial advices</h3>
+                  <div class="date">March 29, 2018</div>
                </div>
-               <h3>Financial advices</h3>
-               <div class="date">March 29, 2018</div>
             </div>
-         </div>
+      </div>
       </section>
       <section class="main-content">
          <div class="main-content__head">
@@ -441,7 +444,7 @@
       </div>
       <small>Copyright ©2023 All rights reserved | This template is made with  by Colorlib</small>
    </footer>
-   <script src="js/main.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="js/main.js"></script>
 </body>
 </html>
