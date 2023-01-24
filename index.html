@@ -6,6 +6,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <script src="https://kit.fontawesome.com/6dee88a29d.js" crossorigin="anonymous"></script>
    <title>Exercice The Gazette</title>
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+   />
    <link rel="stylesheet" href="css/styles.min.css">
 </head>
 <body>
@@ -29,31 +33,31 @@
    </header>
    <main>
       <section class="slide">
-         <div class="slide__wrapper">
+         <div class="slide__wrapper swiper-slide">
             <img src="img/bg-img/1.jpg" alt="manif">
             <div class="slide__content">
                <div class="categorie">
-                  Crypro
+                  <a href="">Crypro</a> 
                </div>
                <h3>Crypto world goes mad</h3>
                <div class="date">March 29, 2018</div>
             </div>
          </div>
-         <div class="slide__wrapper">
+         <div class="slide__wrapper swiper-slide">
             <img src="img/bg-img/2.jpg" alt="capitol">
             <div class="slide__content">
                <div class="categorie">
-                  Live
+                  <a href="">Live</a>
                </div>
                <h3>The latest news</h3>
                <div class="date">March 29, 2018</div>
             </div>
          </div>
-         <div class="slide__wrapper">
+         <div class="slide__wrapper swiper-slide">
             <img src="img/bg-img/3.jpg" alt="good news">
             <div class="slide__content">
                <div class="categorie">
-                  politics
+                  <a href="">politics</a>
                </div>
                <h3>Financial advices</h3>
                <div class="date">March 29, 2018</div>
@@ -65,7 +69,7 @@
             <div class="left">
                <div class="left__first">
                   <div class="categorie">
-                     politices
+                     <a href="">politices</a> 
                   </div>
                   <h1>What's behind the world obsession with gems?</h1>
                   <div class="date">
@@ -105,7 +109,7 @@
                      </div>
                      <div class="left__second__article__content">
                         <div class="categorie">
-                           news
+                           <a href="">news</a>
                         </div>
                         <h3>$250-million mansion is most expensive</h3>
                         <div class="date">March 29, 2016</div>
@@ -123,7 +127,7 @@
                      </div>
                      <div class="left__second__article__content">
                         <div class="categorie">
-                           life
+                           <a href="">life</a> 
                         </div>
                         <h3>Homeless man steals $350,000</h3>
                         <div class="date">March 29, 2016</div>
@@ -140,28 +144,47 @@
             <div class="right">
                <h3>BREAKING NEWS</h3>
                <div class="breaking__news">
-                  <div class="categorie">breaking news</div>
+                  <div class="categorie__bg">
+                     <div class="categorie">breaking news</div>
+                  </div>
                   <div class="breaking__news__title">China leads new global skyscraper record</div>
                </div>
                <div class="breaking__news">
-                  <div class="categorie">breaking news</div>
+                  <div class="categorie__bg">
+                     <div class="categorie">breaking news</div>
+                  </div>
                   <div class="breaking__news__title">Can a zebra crossing change its stripes?</div>
                </div>
                <h3>DON'T MISS</h3>
                <div class="dont__miss">
-                  <h4><a href="">EU council reunites</a></h4>
-                  <div class="date">Nov 29, 2017</div>
+                  <div class="dont__miss__img">
+                     <img src="img/blog-img/15.jpg" alt="un batiment sylé de type grec">
+                  </div>
+                  <div class="dont__miss__content">
+                     <h4><a href="">EU council reunites</a></h4>
+                     <div class="date">Nov 29, 2017</div>
+                  </div>
                </div>
                <div class="dont__miss">
-                  <h4><a href="">A new way to travel the world </a></h4>
-                  <div class="date">March 29, 2016</div>
+                  <div class="dont__miss__img">
+                     <img src="img/blog-img/8.jpg" alt="journal">
+                  </div>
+                  <div class="dont__miss__content">
+                     <h4 class="dont__miss__content__long"><a href="">A new way to travel</a></h4>
+                     <div class="date">March 29, 2016</div>
+                  </div>
                </div>
                <div class="dont__miss">
-                  <h4><a href="">Why choose a bank?</a></h4>
-                  <div class="date">March 29, 2016</div>
+                  <div class="dont__miss__img">
+                     <img src="img/blog-img/11.jpg" alt="manif">
+                  </div>
+                  <div class="dont__miss__content">
+                     <h4><a href="">Why choose a bank?</a></h4>
+                     <div class="date">March 29, 2016</div>
+                  </div>
                </div>
                <h3>Advert</h3>
-               <img src="img/bg-img/add.png" alt="add here">
+               <img class="advert" src="img/bg-img/add.png" alt="add here">
                <h3>SUBSCRIBE</h3>
                <form>
                   <input type="email" placeholder="Your Email">
@@ -261,7 +284,7 @@
       <section class="height__article">
          <div class="height__article__wrapper">
             <div class="height__article__box">
-               <div>
+               <div class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -269,7 +292,7 @@
                </a>
             </div>
             <div class="height__article__box">
-               <div>
+               <div  class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -277,7 +300,7 @@
                </a>
             </div>
             <div class="height__article__box">
-               <div>
+               <div  class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -285,7 +308,7 @@
                </a>
             </div>
             <div class="height__article__box">
-               <div>
+               <div  class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -293,7 +316,7 @@
                </a>
             </div>
             <div class="height__article__box">
-               <div>
+               <div  class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -301,7 +324,7 @@
                </a>
             </div>
             <div class="height__article__box">
-               <div>
+               <div  class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -309,7 +332,7 @@
                </a>
             </div>
             <div class="height__article__box">
-               <div>
+               <div  class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -317,7 +340,7 @@
                </a>
             </div>
             <div class="height__article__box">
-               <div>
+               <div  class="height__article__box__img">
                   <a href=""><i class="fa fa-play"></i></a>
                </div>
                <a href="">
@@ -334,10 +357,10 @@
             <div class="slide__footer__article__content">
                <div class="categorie">
                   <a href="">editorial</a>
-                  <h3>Move over, bitcoin <span>Here comes litecoin</span></h3>
-                  <div class="date">March29, 2016</div>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus facere maxime eum assumenda quisquam beatae. Fuga, tempore neque nobis ex illo unde perspiciatis eius in rerum necessitatibus veniam obcaecati dicta!</p>
                </div>
+                  <h3>Move over, bitcoin <span>Here comes litecoin</span></h3>
+                  <div class="date">March 29, 2016</div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis...</p>
             </div>
          </div>
       </section>
@@ -347,78 +370,78 @@
          <div class="footer__cate">
             <h4>Regions</h4>
             <ul>
-               <li><a href=""></a>U.S.</li>
-               <li><a href=""></a>Africa</li>
-               <li><a href=""></a>Americas</li>
-               <li><a href=""></a>Asia</li>
-               <li><a href=""></a>China</li>
-               <li><a href=""></a>Europe</li>
-               <li><a href=""></a>Middle</li>
-               <li><a href=""></a>East</li>
-               <li><a href=""></a>Opinion</li>
+               <li><a href="">U.S.</a></li>
+               <li><a href="">Africa</a></li>
+               <li><a href="">Americas</a></li>
+               <li><a href="">Asia</a></li>
+               <li><a href="">China</a></li>
+               <li><a href="">Europe</a></li>
+               <li><a href="">Middle</a></li>
+               <li><a href="">East</a></li>
+               <li><a href="">Opinion</a></li>
             </ul>
          </div>
          <div class="footer__cate">
             <h4>Fashion</h4>
             <ul>
-               <li><a href=""></a>Election 2016</li>
-               <li><a href=""></a>Nation</li>
-               <li><a href=""></a>World</li>
-               <li><a href=""></a>Our Team</li>
+               <li><a href="">Election 2016</a></li>
+               <li><a href="">Nation</a></li>
+               <li><a href="">World</a></li>
+               <li><a href="">Our Team</a></li>
             </ul>
          </div>
          <div class="footer__cate">
             <h4>Politics</h4>
             <ul>
-               <li><a href=""></a>Business</li>
-               <li><a href=""></a>Markets</li>
-               <li><a href=""></a>Tech</li>
-               <li><a href=""></a>Luxury</li>
+               <li><a href="">Business</a></li>
+               <li><a href="">Markets</a></li>
+               <li><a href="">Tech</a></li>
+               <li><a href="">Luxury</a></li>
             </ul>
          </div>
          <div class="footer__cate">
             <h4>Featured</h4>
             <ul>
-               <li><a href=""></a>Football</li>
-               <li><a href=""></a>Golf</li>
-               <li><a href=""></a>Tennis</li>
-               <li><a href=""></a>Motorsport</li>
-               <li><a href=""></a>Horseracing</li>
-               <li><a href=""></a>Equestrian</li>
-               <li><a href=""></a>Sailing</li>
-               <li><a href=""></a>Skiing</li>
+               <li><a href="">Football</a></li>
+               <li><a href="">Golf</a></li>
+               <li><a href="">Tennis</a></li>
+               <li><a href="">Motorsport</a></li>
+               <li><a href="">Horseracing</a></li>
+               <li><a href="">Equestrian</a></li>
+               <li><a href="">Sailing</a></li>
+               <li><a href="">Skiing</a></li>
             </ul>
          </div>
          <div class="footer__cate">
             <h4>FAQ</h4>
             <ul>
-               <li><a href=""></a>Aviation</li>
-               <li><a href=""></a>Business</li>
-               <li><a href=""></a>Traveller</li>
-               <li><a href=""></a>Destinations</li>
-               <li><a href=""></a>Features</li>
-               <li><a href=""></a>Food/Drink</li>
-               <li><a href=""></a>Hotels</li>
-               <li><a href=""></a>Partner Hotels</li>
+               <li><a href="">Aviation</a></li>
+               <li><a href="">Business</a></li>
+               <li><a href="">Traveller</a></li>
+               <li><a href="">Destinations</a></li>
+               <li><a href="">Features</a></li>
+               <li><a href="">Food/Drink</a></li>
+               <li><a href="">Hotels</a></li>
+               <li><a href="">Partner Hotels</a></li>
             </ul>
          </div>
          <div class="footer__cate">
             <h4>+More</h4>
             <ul>
-               <li><a href=""></a>Fashion</li>
-               <li><a href=""></a>Design</li>
-               <li><a href=""></a>Architecture</li>
-               <li><a href=""></a>Arts</li>
-               <li><a href=""></a>Autos</li>
-               <li><a href=""></a>Luxury</li>
-               <li><a href=""></a>Hotels</li>
-               <li><a href=""></a>Partner Hotels</li>
+               <li><a href="">Fashion</a></li>
+               <li><a href="">Design</a></li>
+               <li><a href="">Architecture</a></li>
+               <li><a href="">Arts</a></li>
+               <li><a href="">Autos</a></li>
+               <li><a href="">Luxury</a></li>
+               <li><a href="">Hotels</a></li>
+               <li><a href="">Partner Hotels</a></li>
             </ul>
          </div>
       </div>
+      <small>Copyright ©2023 All rights reserved | This template is made with  by Colorlib</small>
    </footer>
-   <hr>
-   <small>Copyright ©2023 All rights reserved | This template is made with  by Colorlib</small>
    <script src="js/main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
