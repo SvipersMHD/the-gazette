@@ -1,0 +1,18 @@
+header, main, footer {
+    font-family: $ff;
+}
+.categorie {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background: red;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.date {
+    font-style: italic;
+    color: gray;
+}

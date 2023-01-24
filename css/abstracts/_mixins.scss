@@ -1,0 +1,8 @@
+@mixin ahover {
+        transition: $transi;
+    
+        &:hover {
+            color: red;
+            border-color: red;
+        }
+}
