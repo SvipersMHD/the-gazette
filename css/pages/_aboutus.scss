@@ -1,0 +1,118 @@
+.titre {
+    background: #efefef;
+
+    .titre__wrapper {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0;
+
+        h1 {
+            font-weight: normal;
+        }
+    }
+}
+.history {
+    width: 60%;
+    margin: 0 auto;
+
+    h2 {
+        font-weight: normal;
+    }
+    p {
+        color: $txt-color;
+        columns: 2;
+        line-height: 30px;
+    }
+}
+.team {
+    padding: 50px 0;
+    width: 60%;
+    margin: 0 auto;
+
+    h2 {
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+    .team__wrapper__box {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+.team__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+
+    .team__info__nom {
+        font-size: 25px;
+    }
+    .team__info__info {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            font-style: italic;
+        }
+    }
+}
+.team__info__info  {
+
+    a {
+        padding: 3px;
+        text-decoration: none;
+        color: #d3d3d3;
+    }
+}
+.join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(../../img/blog-img/cta.jpg)no-repeat center/cover fixed;
+    padding: 75px 0;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.688);
+    }
+
+    .join__wrapper {
+        width: 60%;
+        color: white;
+        z-index: 10;
+    }
+}
+.join__wrapper {
+
+    h2 {
+        font-weight: normal;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    p {
+        color: $txt-color;
+        width: 60%;
+        margin: 0 auto;
+    }
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 1px solid white;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
